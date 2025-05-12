@@ -115,6 +115,7 @@ body {
 	padding: 1.7rem 1.5rem;
 	font-family: var(--ff-primary);
 	border-radius: 10px;
+	max-width: 412px;
 }
 
 .card__star {
