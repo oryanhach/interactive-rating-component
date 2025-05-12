@@ -216,3 +216,78 @@ body {
 		height: 3.2rem;
 	}
 }
+
+.results__card {
+	display: none;
+	background: var(--gradient-bg);
+	padding: 1.7rem 1.5rem;
+	font-family: var(--ff-primary);
+	border-radius: 10px;
+	max-width: 412px;
+	text-align: center;
+}
+
+.results__img {
+	margin: auto;
+	margin-top: 1rem;
+	margin-bottom: 1.7rem;
+}
+
+.results__result {
+	color: var(--clr-primary-orange);
+	background-color: var(--clr-grey-dark);
+	border-radius: 30px;
+	text-align: center;
+	width: 11rem;
+	height: 2rem;
+	font-size: var(--fs-primary);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+	margin-bottom: 1.5rem;
+}
+
+.results__congrats {
+	color: var(--clr-white);
+	font-weight: var(--fw-bold);
+	font-size: 1.5rem;
+	margin-bottom: 1rem;
+}
+
+.results__text {
+	color: var(--clr-grey-normal);
+	text-align: center;
+	font-size: 0.9rem;
+	margin-bottom: 0.5rem;
+}
+
+@media (min-width: 770px) {
+	.results__card {
+		border-radius: 20px;
+	}
+	.results__img {
+		height: 8rem;
+		margin-top: 1.5rem;
+		margin-bottom: 2.2rem;
+	}
+
+	.results__result {
+		margin-bottom: 2rem;
+		font-size: 1rem;
+	}
+
+	.results__congrats {
+		font-size: 2rem;
+		margin-bottom: 1rem;
+	}
+
+	.results__text {
+		font-size: 1rem;
+	}
+}
+
+.clicked {
+	background-color: var(--clr-primary-orange);
+	color: white;
+}
