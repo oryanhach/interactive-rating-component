@@ -10,46 +10,59 @@
 
   <title>Frontend Mentor | Interactive rating component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution {
-      font-size: 11px;
-      text-align: center;
-    }
+  <!-- GOOGLE FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kumbh+Sans:wght@100..900&family=League+Spartan:wght@100..900&family=Lexend+Deca:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Overpass:ital,wght@0,100..900;1,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap"
+    rel="stylesheet">
 
-    .attribution a {
-      color: hsl(228, 45%, 44%);
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
 
-  <!-- Rating state start -->
+  <main class="rating__card">
 
-  How did we do?
+    <section class="card">
 
-  Please let us know how we did with your support request. All feedback is appreciated
-  to help us improve our offering!
+      <img src="images/icon-star.svg" class="card__star" alt="a star icon">
 
-  1 2 3 4 5
+      <h1 class="card__title">
+        How did we do?
+      </h1>
 
-  Submit
+      <p class="card__text">
+        Please let us know how we did with your support request. All feedback is appreciated
+        to help us improve our offering!
+      </p>
 
-  <!-- Rating state end -->
+      <div class="rating__btns">
+        <button class="rating__btn">
+          1
+        </button>
+        <button class="rating__btn">
+          2
+        </button>
+        <button class="rating__btn">
+          3
+        </button>
+        <button class="rating__btn">
+          4
+        </button>
+        <button class="rating__btn">
+          5
+        </button>
+      </div>
 
-  <!-- Thank you state start -->
+      <button class="rating__btn-submit">
+        Submit
+      </button>
 
-  You selected <!-- Add rating here --> out of 5
+    </section>
 
-  Thank you!
-
-  We appreciate you taking the time to give a rating. If you ever need more support,
-  don’t hesitate to get in touch!
-
-  <!-- Thank you state end -->
-
-
+  </main>
 
 </body>
 
